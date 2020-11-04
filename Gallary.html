@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Webpage</title>
+  <style>
+  div.gallery {
+    margin: 5px;
+    border: 0px solid #ccc;
+    float: left;
+    width: 400px;
+  }
+
+  div.gallery:hover {
+    border: 0px solid #777;
+  }
+
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  </style>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+      }
+
+      * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+  </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a style="color: #28a745;" class="navbar-brand" href="#">Carolado</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Aboutus.html">About us</a>
+      </li>
+       <li class="nav-item active">
+        <a class="nav-link" href="Gallary.html">Gallery</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="Contact.html">Contact</a>
+      </li>
+ 
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images\carou1.jpg"  alt="Los Angeles" width="1950" height="700">
+    </div>
+    <div class="carousel-item">
+      <img src="images\carou2.jpg" alt="Chicago" width="1950" height="700">
+    </div>
+    <div class="carousel-item">
+      <img src="images\carou3.jpg" alt="New York" width="1950" height="700">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<section>
+  <div class="container">
+    <h1 class="text-center pt-4">Gallery</h1>
+    <hr class="w-100 pt-5">
+</div>
+</section>
+
+<div class="row">
+  <div class="column">
+    <img src="images\g1.jpg">
+    <img src="images\g5.jpg">
+    <img src="images\g9.jpg">
+    <img src="images\g13.jpg">
+    <img src="images\g17.jpg">
+    <img src="images\g14.jpg">
+
+  </div>
+  <div class="column">
+    <img src="images\g2.jpg">
+    <img src="images\g6.jpg">
+    <img src="images\g10.jpg">
+    <img src="images\g14.jpg">
+    <img src="images\g16.jpg">
+    <img src="images\g11.jpg">
+  </div>
+  <div class="column">
+    <img src="images\g3.jpg">
+    <img src="images\g7.jpg">
+    <img src="images\g17.jpg">
+    <img src="images\g15.jpg">
+    <img src="images\g8.jpg">
+    <img src="images\g9.jpg">
+    <img src="images\g2.jpg">
+  </div>
+  <div class="column">
+    <img src="images\g6.jpg">
+    <img src="images\g8.jpg">
+    <img src="images\g14.jpg">
+    <img src="images\g1.jpg">
+    <img src="images\g7.jpg">
+    <img src="images\g10.jpg">
+  </div>
+</div>
+<br>
+<hr class="w-100 pt-5">
+<style>
+
+.footer {
+  position: fixed-bottom;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8%;
+  background-color: #343a40;
+  color: #c2cec6;
+  text-align: center;
+  padding-bottom: 2px;
+}
+
+
+.fa {
+  padding: 5px;
+  font-size: 1px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 1px 1px;
+  margin-top: 20px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+</style>
+
+<div class="footer">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<a href="https://www.facebook.com" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="https://www.google.com" class="fa fa-google"></a>
+<a href="https://www.youtube.com" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com" class="fa fa-instagram"></a>
+
+  <p class="pt-2"> copyright 2020 </p>
+</div>
+
+</body>
+</html>

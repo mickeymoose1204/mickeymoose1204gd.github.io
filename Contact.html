@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Webpage</title>
+
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+      }
+  </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a style="color: #28a745;" class="navbar-brand" href="#">Carolado</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Aboutus.html">About us</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="Gallary.html">Gallery</a>
+      </li>
+       <li class="nav-item active">
+        <a class="nav-link" href="Contact.html">Contact</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<section>
+
+  <style>
+body {font-family: Arial, Helvetica, Open sans;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+
+ 
+    <h1 class="text-center pt-4">Contact Us</h1>
+    <hr class="w-50 pt-4">
+
+ <div class="container">
+    <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="vietnam">Viet Nam</option>
+      <option value="italia">Italia</option>
+      <option value="india">India</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Tell us about what you think ..." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</div>
+<br>
+<style>
+
+.footer {
+  position: fixed-bottom;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8%;
+  background-color: #343a40;
+  color: #c2cec6;
+  text-align: center;
+  padding-bottom: 2px;
+}
+
+
+.fa {
+  padding: 5px;
+  font-size: 1px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 1px 1px;
+  margin-top: 20px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+</style>
+
+<div class="footer">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<a href="https://www.facebook.com" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="https://www.google.com" class="fa fa-google"></a>
+<a href="https://www.youtube.com" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com" class="fa fa-instagram"></a>
+
+  <p class="pt-2"> copyright 2020 </p>
+</div>
+
+</body>
